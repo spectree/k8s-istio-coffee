@@ -1,10 +1,12 @@
 == Enterprise Coffee
 
+
 The coffee shop hands-on example project of my _Cloud native, service-meshed Java Enterprise with Kubernetes and Istio_ presentation.
 
 It comprises two applications, _coffee-shop_ and _barista_, built by Java EE and MicroProfile, which are deployed to a Kubernetes and Istio cluster.
 
 === Debugging
+Telepresence and WAD 
 
 You can use https://wad.sh[WAD^] to debug a local Docker container.
 Furthermore, https://telepresence.io[telepresence^] can be used to connect a local process to a Kubernetes cluster.
